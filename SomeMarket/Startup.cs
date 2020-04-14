@@ -35,7 +35,7 @@ namespace SomeMarket
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=index}/{id?}");
+                    pattern: "api/{controller=Home}/{action=index}/{id?}");
             });
         }
     }

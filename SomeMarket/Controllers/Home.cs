@@ -10,7 +10,7 @@ namespace SomeMarket.Controllers
     {
         public IEnumerable<string> Index()
         {
-            return new List<string>() { "Sam: Sasi" };
+            return new List<string>() { "Hello: world!" };
         }
     }
 }
